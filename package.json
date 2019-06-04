@@ -1,0 +1,23 @@
+{
+  "name": "react-native-dismiss-keyboard-views",
+  "version": "0.0.0",
+  "description": "Views and HOCs that trigger Keyboard.dismiss when touched",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "iyegoroff <iegoroff@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}
